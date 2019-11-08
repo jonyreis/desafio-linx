@@ -1,0 +1,107 @@
+/* ==== GENERAL STYLE ==== */
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #653332;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.max-w {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ========= MAIN ========= */
+
+.bg {
+    background: #FEEEEE;
+}
+
+.foto-logo {
+    padding: 20px 0;
+}
+
+.border-top {
+    border-top: 1px solid #FCCCEE;
+    padding-top: 20px;
+}
+
+.frase {
+    font-size: 46px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.frase span {
+    font-weight: bold;
+    color: #FF0099;
+}
+
+/* ===== DISPLAY FLEX ===== */
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+/* ===== ITEM 1 ===== */
+
+.item-1 {
+    max-width: 530px;
+    margin: 0 10px;
+}
+
+.item-1 h2 {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.participe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.participe img {
+    margin-left: 10px;
+}
+
+/* ===== ITEM 2 ===== */
+
+.item-2 {
+    background: #F2DCE4;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.item-2 p {
+    padding: 20px 0;
+}
+
+.item-2 label {
+    padding: 10px 0 5px 0;
+}
+
+.item-2 input {
+    padding: 4px 0;
+}
+
+.sexo {
+    padding: 20px 0;
+}
+
+#button {
+    margin: 0 auto;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- ========== META TAGs ========== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lojas Marisa | Concorra a R$500,00 reais em compras nas lojas Marisa.</title>
+    
+    <!-- ========== LINKs ========== -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- ======= BACKGROUND ======= -->
+    <div class="bg">
+
+        <!-- ====== HEADER LOGO ====== -->
+        <header class="max-w">
+            <img class="foto-logo" src="assets/logo-marisa.svg" alt="logo da loja marisa">
+        </header>
+
+        <!-- ========== MAIN ========== -->
+
+        <main class="border-top">
+
+            <section class="max-w">
+                <div class="frase">
+                    <h1>Que tal ganhar <span>R$ 500,00</span> em compras?</h1>
+                </div>
+                
+                <div class="item-flex"> <!-- ===== DISPLAY FLEX ===== -->
+
+                    <div class="item-1"> <!-- ==== ITEM FLEX 1 ==== -->
+    
+                        <h2>Responda a nossa pesquisa e participe do sorteio 
+                        para concorrer a R$ 500,00 em compras nas 
+                        lojas Marisa.</h2>
+                        <img src="assets/compras-marisa.png" class="foto-mulher" alt="Mulher com compras da lojas Marisa">
+                        <div class="participe">
+                            <p>Participe</p>
+                            <img src="assets/Vector.svg" alt="Seta para direita indicando o formulário">
+                        </div>
+                    </div>
+
+                    <form id="form" class="item-2"> <!-- ==== ITEM FLEX 2 ==== -->
+                        <p>Responda aqui para participar</p>
+                        <label for="nome" class=".not-center">Nome</label>
+                        <input type="text" id="nome">
+                        <label for="email" class=".not-center">Email</label>
+                        <input type="text" id="email" class="email" placeholder="seuemail@email.com">
+                        <label for="cpf" class=".not-center">CPF</label>
+                        <input type="text" id="cpf" class="cpf" placeholder="000.000.000-00">
+                        <div class="sexo">
+                            <label id="sexo">Sexo</label>
+                            <br>
+                            <input type="radio" name="sexo" id="feminino" value="feminino" checked>
+                            <label id="fem">Feminino</label>
+                            <input type="radio" name="sexo" id="masculino" value="masculino">
+                            <label id="mas">Masculino</label>
+                        </div>
+                        <div id="button">
+                            <button type="submit" class="btn">Quero Participar!</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
