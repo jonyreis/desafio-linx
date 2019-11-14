@@ -1,6 +1,6 @@
 /* ==== GENERAL STYLE ==== */
 
-h1, h2, p {
+h1, h2,h3, p {
     font-family: 'Josefin Sans', sans-serif;
     color: #653332;
 }
@@ -50,6 +50,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 /* ===== ITEM 1 ===== */
@@ -140,6 +141,153 @@ img {
 }
 
 .produtos li {
-    margin: 0 20px;
+    margin: 0 10px;
+    text-align: center;
+
 }
 
+.produtos img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.produtos a:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.produtos h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.old-price {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #653332;
+    text-decoration: line-through;
+    padding: 6px;
+}
+
+.new-price {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF0099;
+    padding-top: 10px;
+
+}
+
+/* ====== Mais Produtos ====== */
+
+.btn-mais {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.novidades {
+    border: 3px solid #653332;
+    color: #653332;
+    padding: 20px 40px;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .40px;
+    text-transform: uppercase;
+}
+
+.novidades:hover {
+    border: 3px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+
+/* ======== Indicação ======== */
+
+.bg-register {
+    background: #FEEEEE;
+}
+
+.register p {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.register span {
+    color: #BF3080;
+}
+
+.register-friend {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.register-friend input {
+    width:250px;
+    height: 33px;
+    border: 1px solid #BF3080;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+.register-friend button {
+    padding: 8px;
+    padding-bottom: 9px;
+    background: #BF3080;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .30px;
+    text-transform: uppercase;
+    margin-left: -38px;
+}
+
+.register-friend button:hover {
+    color: #000;
+}
+
+.nome {
+    padding-left: 5px;
+}
+
+.email {
+    padding-left: 5px;
+}
+
+/* ====== Footer ====== */
+
+.bg-footer {
+    background: #000;
+    padding: 15px 0;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes ul li {
+    color: #fff;
+    display: inline-block;
+}
+
+.redes ul li p {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.redes ul li a {
+    padding-right: 20px;
+}
