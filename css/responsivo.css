@@ -1,0 +1,50 @@
+@media (max-width: 1000px) {
+
+    .produtos ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .frase {
+        font-size: 36px;
+    }
+
+    .item-2 {
+        margin: 20px auto;
+        order: -2;
+        padding-bottom: 30px;
+    }
+
+    .item-1 {
+        padding: 0 10px;
+        margin: 20px auto;
+        order: 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    header {
+        text-align: center;
+    }
+
+    .frase {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .item-1 h2 {
+        font-size: 14px;
+    }
+
+    .participe img {
+        display: none;
+    }
+
+}
