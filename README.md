@@ -1,6 +1,6 @@
-# Desafio da Linx
+# Meu Primeiro Projeto
 
-## Criar uma landing page responsiva e um e-mail marketing.
+## Landing page Fictícia das Lojas Marisa.
 
 ### 1 - Criação do Wireframe
 
